@@ -6,7 +6,7 @@
 超级节点(简称SN)是APO网络上的记账人，一共3个，负责对网络上广播出来的交易数据进行验证，并将交易打包进区块中，他们是轮流的方式打包区块。超级代表的信息是在APO网络上公开的，所有人都可以获取这些信息。
 ### 1.2超级节点部署方式
 ```
-java -jar FullNode.jar -p your privatekey --witness -c your config.conf(Example：见附录)
+java -jar FullNode.jar -p your privatekey --witness -c your config.conf(Example：见同目录下的beta.config.conf)
 Example:
 Java -jar FullNode.jar -p 650950B193DDDDB35B6E48912DD28F7AB0E7140C1BFDEFD493348F02295BD812 --witness -c ./config.conf
 ```
